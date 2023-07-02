@@ -1,33 +1,23 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		this.rect_w = width
-		this.rect_h = height
+		this.width=width;
+		this.height=height;
 	}
-
-	get width(){
-		return this.rect_w
+	getWidth(){
+		return this.width;
 	}
-
-	get height(){
-		return this.rect_h;
+	getHeight(){
+return this.height;
 	}
-
 	getArea(){
-		return this.rect_w * this.rect_h
+		return width*height;
 	}
 }
 
-class Square extends Rectangle{
-	constructor(sq_s){
-		super(sq_s,sq_s)
-	}
-
-	getArea(){
-		return this.sq_s* this.sq_s
-	}
+class Square extends Animal {
 	getPerimeter(){
-		return sq_s * 4
+		return 2*(l+b);
 	}
 }
 
